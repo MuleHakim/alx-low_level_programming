@@ -9,6 +9,7 @@ int main(void)
 {
 	int i;
 	char ch;
+
 	i = 0;
 	ch = 97;
 	while (i < 16)
