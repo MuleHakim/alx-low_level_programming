@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point to the program
  *
  * Return: Always 0 (Success)
  */
@@ -17,7 +17,7 @@ int main(void)
 		putchar(ch);
 		ch++;
 		i++;
-															    }
+	}
 	putchar(10);
 	return (0);
 }
