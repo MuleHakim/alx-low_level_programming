@@ -13,12 +13,14 @@ int main(void)
 	i = 0;
 	ch = 97;
 	while (i < 16)
-	{										if (i > 9)
-		 {										putchar(ch)
+	{
+		if (i > 9)
+	        {									putchar(ch);
 			 ch++;
-			 i++;								}								       else
-		 {										putchar(i + '0');
-			 i++;								}								}
-	  putchar(10);
-	  return (0);
+			 i++;						       }
+		else
+		{									putchar(i + '0');
+			 i++;							}						      }
+	putchar(10);
+        return (0);
 }
