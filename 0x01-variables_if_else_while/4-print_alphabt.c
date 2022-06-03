@@ -15,7 +15,7 @@ int main(void)
 	i = 0;
 	while (i < 26)
 	{
-		if ((ch != 101 && (ch != 113))
+		if ((ch != 101) && (ch != 113))
 		{
 			putchar(ch);
 			ch++;
@@ -27,7 +27,7 @@ int main(void)
 			i++;
 		}
 	}
-	puchar(10);
+	putchar(10);
 	return (0);
 }
 
