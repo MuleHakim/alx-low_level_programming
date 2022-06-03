@@ -12,7 +12,7 @@ int main(void)
 
 	ch = 97;
 	i = 0;
-	while (i<26)
+	while (i < 26)
 	{
 		putchar(ch);
 		ch++;
@@ -20,7 +20,7 @@ int main(void)
 	}
 	i = 0;
 	ch = 65;
-	while (i<26)
+	while (i < 26)
 	{
 		putchar(ch);
 		ch++;
