@@ -15,7 +15,7 @@ int main(void)
 	while (i < 16)
 	{
 		if (i > 9)
-	        {
+		{
 			putchar(ch);
 			ch++;
 			i++;						       }
