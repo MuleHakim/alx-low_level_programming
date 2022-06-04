@@ -22,7 +22,8 @@ int main(void)
 		else
 		{
 			putchar(i + '0');
-			i++;						       }	
+			i++;
+		}	
 	}
 	putchar(10);
         return (0);
