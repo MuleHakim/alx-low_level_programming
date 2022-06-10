@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * rint_numbers - prints numbers 0-9
+ * print_numbers - prints numbers 0-9
+ * 
  * Return: void
  */
 
