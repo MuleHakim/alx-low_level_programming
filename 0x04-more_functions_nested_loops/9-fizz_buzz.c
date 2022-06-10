@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry piont
  * Return: Always 0
  */
 
@@ -21,7 +21,7 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
-	printf("Buzz\n")
+	printf("Buzz\n");
 
 	return (0);
 }
