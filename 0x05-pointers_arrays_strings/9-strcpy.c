@@ -5,8 +5,9 @@
  * @dest: Destination value
  * @src: Source value
  *
- * Return: the pointer to dest
+ * Return: the pointer to des
  */
+
 char *_strcpy(char *dest, char *src)
 {
 	int i;
@@ -19,4 +20,4 @@ char *_strcpy(char *dest, char *src)
 	dest[i++] = '\0';
 
 	return (dest);
-}	
+}
