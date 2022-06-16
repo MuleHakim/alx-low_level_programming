@@ -18,16 +18,16 @@ char *leet(char *s)
 
 	while (s[stringCount] != '\0')
 	{
-			leetCount = 0;
-			while (leetCount < 10)
+		leetCount = 0;
+		while (leetCount < 10)
+		{
+			if (leetLetters[leetCount] == s[stringCount])
 			{
-				if (leetLetters[leetCount] == s[stringCount])
-				{
-					s[stringCount] = leetNums[leetCount];
-				}
-				leetCount++;
+				s[stringCount] = leetNums[leetCount];
 			}
-			stringCount++;
+			leetCount++;
+		}
+		stringCount++;
 	}
 	return (s);
-i}
+}
