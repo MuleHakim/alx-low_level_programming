@@ -18,8 +18,7 @@ char *leet(char *s)
 
 	while (s[stringCount] != '\0')
 	{
-		leetCount = 0;
-		{
+			leetCount = 0;
 			while (leetCount < 10)
 			{
 				if (leetLetters[leetCount] == s[stringCount])
@@ -29,7 +28,6 @@ char *leet(char *s)
 				leetCount++;
 			}
 			stringCount++;
-		}
 	}
 	return (s);
-}
+i}
