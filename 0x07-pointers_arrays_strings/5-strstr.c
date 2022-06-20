@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strstr - prints the consecutive caracters of s1 that are in s2.
- * @haystack: source string
- * @needle: searching string
- * Return: new string.
+ * _strstr - find a string in a string.
+ * @haystack: first string
+ * @needle: second string.
+ * Return: char.
  */
 
 char *_strstr(char *haystack, char *needle)
