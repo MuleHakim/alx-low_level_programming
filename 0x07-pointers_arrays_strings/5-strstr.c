@@ -15,6 +15,7 @@ char *_strstr(char *haystack, char *needle)
 	{
 		tmpi = i;
 		checker = 0;
+
 		for (j = 0; j < length_needle; j++)
 		{
 			if (haystack[tmpi] == needle[j])
