@@ -9,6 +9,7 @@
 char *_strstr(char *haystack, char *needle)
 {
 	unsigned int length_needle = 0, i = 0, j, tmpi, checker;
+
 	while (needle[length_needle] != '\0')
 		length_needle++;
 	while (haystack[i] != '\0')
