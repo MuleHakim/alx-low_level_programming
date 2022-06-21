@@ -2,12 +2,13 @@
 
 /**
  * print_chessboard - print a chessboard.
- * @a: source matrix 
+ * @a: source matrix
  * Return: chessboard.
  */
 void print_chessboard(char (*a)[8])
 {
-	int i, j;
+	int i;
+	int j;
 
 	for (i = 0; i <= 7; i++)
 	{
