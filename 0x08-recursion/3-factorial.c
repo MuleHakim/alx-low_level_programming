@@ -5,7 +5,7 @@
  * @n: Argument to calculate factorial of.
  *
  * Return: Factorial of @n.
- *   	         -1 if n is less than 0.
+ *	   -1 if n is less than 0.
  */
 int factorial(int n)
 {
@@ -15,6 +15,6 @@ int factorial(int n)
 		return (-1);
 	if (n == 0)
 		return (1);
-	i = n * factorial(n-1);
+	i = n * factorial(n - 1);
 	return (i);
 }
