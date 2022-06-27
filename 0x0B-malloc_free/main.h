@@ -1,8 +1,5 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
-
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef FILE_MAIN_H
+#define FILE_MAIN_H
 
 char *_strdup(char *str);
 
