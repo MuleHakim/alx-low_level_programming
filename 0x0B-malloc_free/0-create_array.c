@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.ih"
 #include <stdio.h>
 #include <stdlib.h>
 /**
@@ -14,16 +14,20 @@ char *create_array(unsigned int size, char c)
 
 	if (size == 0)
 	{
-		return (0);
+		return (NULL);
 	}
+
 	p = malloc((size) * sizeof(char));
-	if (p == '\0')
+
+	if (p == NULL)
 	{
-		return (0);
+		return (NULL);
 	}
+
 	for (i = 0; i < size; i++)
 	{
 		p[i] = c;
 	}
+
 	return (p);
 }
