@@ -1,11 +1,13 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * _realloc -  reallocates a memory block using malloc and free
- * @ptr: pointer
- * @old_size: old size
- * @new_size: new size
- * Return: pointer
+ * _realloc - function that concatenates two strings.
+ * @old_size: number min.
+ * @new_size: number max.
+ * @s: array input.
+ * Return: Always 0.
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
