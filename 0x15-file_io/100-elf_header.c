@@ -15,6 +15,29 @@ void check_elf(unsigned char *e_ident)
 {
 	int i;
 
+	for (i = 0; i < 4; i++)
+	{
+		if (e_ident[i] != 127 &&
+		    e_ident[i] != 'E' &&
+		    e_ident[i] != 'L' &&
+		    e_ident[i] != 'F')
+		{
+			dprintf(STDERR_FILENO, "Error: Not an ELF file\n");
+			exit(98);
+		}
+	}
+}
+
+/**
+ * print_magic - Prints the magic numbers of an ELF header.
+ * @e_ident: A pointer to an array containing the ELF magic numbers.
+ *
+ * Description: Magic numbers are separated by spaces.
+ */
+void print_magic(unsigned char *e_ident)
+{
+	int x;
+
 	printf("  Magic:   ");
 
 	for (x = 0; x < EI_NIDENT; x++)
